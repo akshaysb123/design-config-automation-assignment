@@ -12,8 +12,8 @@
           <include name="afterMethod"/>
           <include name="aftemethod"/>
           <include name="beforeMethodMethod"/>
-          <include name="loginsuccessfuly"/>
           <include name="mainBeforeTestMethod"/>
+          <include name="designconfigupdate"/>
         </methods>
       </class> <!-- test.com.launchbrowser.NewTest1 -->
     </classes>

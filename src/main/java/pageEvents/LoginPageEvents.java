@@ -139,6 +139,7 @@ public class LoginPageEvents extends BaseTest{
 		}
 		ele.getWebEement("XPATH", LoginPageElements.hotelcomadium).click();
 		ele.getWebEement("XPATH", LoginPageElements.visibletext3).click();
+		//ele.getWebEement("XPATH", null)
 
 		//WebElement uploadElement1 = driver.findElement(By.xpath("//div[@class='mb-4 mt-4']//div[@class='d-flex align-items-center img-select justify-content-center']"));
 		WebElement uploadElement1 = ele.getWebEement("XPATH", LoginPageElements.uploadelement1);

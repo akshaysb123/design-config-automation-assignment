@@ -23,7 +23,7 @@ public class NewTest1 extends BaseTest {
 
   }
   
-  @Test(priority = 2, enabled = false)
+  @Test(priority = 2, enabled = true)
   public void designconfigupdate() throws AWTException
   {
 	  logger.info("updating disign config page");

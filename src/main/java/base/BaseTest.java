@@ -67,7 +67,7 @@ public class BaseTest
 			logger.log(Status. SKIP, MarkupHelper.createLabel(result.getName() +" Test Case skipped", ExtentColor.ORANGE));}
 		else if(result.getStatus() == ITestResult.SUCCESS){
 			logger.log(Status. PASS, MarkupHelper.createLabel (result.getName() + "Test Case pass", ExtentColor.GREEN));}
-		driver.quit();
+		//driver.quit();
 	}
 
 	@AfterTest
